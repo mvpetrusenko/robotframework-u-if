@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221008 21:40:49.951" rpa="false" schemaversion="3">
+<suite id="s1" name="Amazon" source="C:\Users\Edward\PycharmProjects\robot-framework-python\Tests\Amazon.robot">
+<kw name="Insert Testing Data" type="SETUP">
+<msg timestamp="20221008 21:40:50.760" level="FAIL">No keyword with name 'Insert Testing Data' found.</msg>
+<status status="FAIL" starttime="20221008 21:40:50.760" endtime="20221008 21:40:50.760"/>
+</kw>
+<test id="s1-t1" name="User can search for product" line="18">
+<doc>Basic info about the test</doc>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20221008 21:40:50.761" endtime="20221008 21:40:50.763">Parent suite setup failed:
+No keyword with name 'Insert Testing Data' found.</status>
+</test>
+<test id="s1-t2" name="User must sign in to check out" line="26">
+<doc>Basic info about the test</doc>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20221008 21:40:50.767" endtime="20221008 21:40:50.769">Parent suite setup failed:
+No keyword with name 'Insert Testing Data' found.</status>
+</test>
+<kw name="Cleanup Testing Data" type="TEARDOWN">
+<msg timestamp="20221008 21:40:50.780" level="FAIL">No keyword with name 'Cleanup Testing Data' found.</msg>
+<status status="FAIL" starttime="20221008 21:40:50.780" endtime="20221008 21:40:50.780">No keyword with name 'Cleanup Testing Data' found.</status>
+</kw>
+<doc>Basic info about the whole suite</doc>
+<status status="FAIL" starttime="20221008 21:40:49.960" endtime="20221008 21:40:50.781">Suite setup failed:
+No keyword with name 'Insert Testing Data' found.
+
+Also suite teardown failed:
+No keyword with name 'Cleanup Testing Data' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Amazon">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
